@@ -29,7 +29,7 @@ no=''
 
 # Rofi CMD
 rofi_cmd() {
-	rofi -dmenu \
+``	rofi -dmenu \
 		-p "Uptime: $uptime" \
 		-mesg "Uptime: $uptime" \
 		-theme ${dir}/${theme}.rasi
